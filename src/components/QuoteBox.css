@@ -1,0 +1,48 @@
+body {
+   height: 100vh;
+   align-items: center;
+}
+
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 400px;  
+    max-height: 400px;
+    margin-top: 150px;
+    border: solid 2px;
+    border-radius: 7px;
+    background-color: rgb(245, 238, 238);
+    justify-content: center;
+}
+
+#text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 25px;
+    padding: 7px;
+}
+
+#author {
+    text-align: right;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 15px;
+    padding: 7px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+button {
+    border-radius: 4px; 
+    color: white;
+    border: none;
+    padding: 7px 20px; 
+    margin: 7px;
+}
